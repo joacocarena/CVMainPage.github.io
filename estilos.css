@@ -1,0 +1,82 @@
+body {
+    margin: 0 auto;
+    font-family: 'Poppins';
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#titulo {
+    font-size: 80px;
+    color: lightgray;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 30px;
+}
+
+.btns {
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-left: 50px;
+    font-size: 120px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    margin-right: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    background-color: none;
+    margin: 0 auto;
+    height: 150px;
+}
+
+#logo {
+    align-items: center;
+    height: 110px;
+    width: 120px;
+    color: lightgray;
+    margin-left: 25px;
+    margin-bottom: -130px;
+}
+
+@media (max-width: 640px) {
+    .container {
+        margin-top: 200px;
+        margin-right: 15px;
+    }
+    #titulo {
+        font-size: 60px;       
+    }
+    .btns {
+        margin-left: 60px;
+    }
+    button {
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        margin-top: 320px;
+    }
+    #titulo {
+        font-size: 55px;
+        margin-right: 90px;
+    }
+    .btns {
+        margin-right: 60px;
+    }
+}
